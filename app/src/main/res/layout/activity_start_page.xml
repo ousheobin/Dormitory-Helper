@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cn.edu.gcu.dormitory.helper.StartPageActivity"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@mipmap/icon"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="100dp"
+            android:textColor="#3798dd"
+            android:textSize="30dp"
+            android:text="宿舍小助手"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:textColor="#3798dd"
+        android:text="Computer Science School Of GCU"/>
+
+
+</RelativeLayout>

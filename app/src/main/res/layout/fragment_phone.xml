@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="舍友电话 Phone"
+                android:textColor="#73b3ec"
+                android:textSize="30dp"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_add_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:textSize="28dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:background="#00000000"
+            />
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/phone_page_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    </ListView>
+
+
+</LinearLayout>

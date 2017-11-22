@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/phone_list_item_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="2dp"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:text="陈田有"
+            />
+
+        <TextView
+            android:id="@+id/phone_list_item_phone"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="16dp"
+            android:textColor="#7fb7ff"
+            android:text="13010000000"
+            />
+
+    </LinearLayout>

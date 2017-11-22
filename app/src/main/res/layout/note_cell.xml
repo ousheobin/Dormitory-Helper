@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/border_line">
+
+        <TextView
+            android:id="@+id/note_list_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="2dp"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:text="这是一个标题"
+            />
+
+        <TextView
+            android:id="@+id/note_list_time"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="2dp"
+            android:textSize="12dp"
+            android:textColor="#7fb7ff"
+            android:text="2017-01-01"
+            />
+
+        <TextView
+        android:id="@+id/note_list_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="16dp"
+        android:textColor="#ffffff"
+        android:text="这个是详细内容\n这个是详细内容\n这个是详细内容\n"
+        />
+
+    </LinearLayout>

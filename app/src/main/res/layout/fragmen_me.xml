@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/me_page_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="我 Me"
+            android:textColor="#73b3ec"
+            android:textSize="30dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/me_page_title"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/btn_me_change_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/border_line"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:padding="10dp"
+                android:text="修改数据保护密码"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/clear_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/border_line"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:padding="10dp"
+                android:text="清空信息"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/btn_about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/border_line"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:padding="10dp"
+                android:text="关于本App"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#054864"
+        android:text="Logout 退出"
+        />
+
+
+</LinearLayout>
